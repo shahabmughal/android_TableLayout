@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.devshahab.tablelayoutdemo.MainActivity">
+
+    <com.devshahab.tablelayoutdemo.ZoomLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#126588"
+                android:overScrollMode="ifContentScrolls">
+
+                <TextView
+                    style="@style/table_header"
+
+                    android:text="ID" />
+
+                <TextView
+                    style="@style/table_header"
+                    android:text="Name" />
+
+                <TextView
+                    style="@style/table_header"
+                    android:text="Email" />
+
+                <TextView
+                    style="@style/table_header"
+                    android:text="Address" />
+
+                <TextView
+                    style="@style/table_header"
+                    android:text="DOB" />
+
+                <TextView
+                    style="@style/table_header"
+                    android:text="Phone" />
+
+            </TableRow>
+        </TableLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+    </com.devshahab.tablelayoutdemo.ZoomLayout>
+</LinearLayout>

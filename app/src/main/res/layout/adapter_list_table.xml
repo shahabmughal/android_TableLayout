@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/table_row_touch"
+    >
+
+    <TextView
+        android:id="@+id/txt_emp_id"
+        style="@style/table_row"
+        android:text="ID"
+        />
+
+    <TextView
+        android:id="@+id/txt_emp_name"
+        style="@style/table_row"
+        android:text="Name"
+        />
+
+    <TextView
+        android:id="@+id/txt_emp_email"
+        style="@style/table_row"
+        android:text="Email"
+        />
+
+    <TextView
+        android:id="@+id/txt_emp_address"
+        style="@style/table_row"
+        android:text="Address"
+        />
+
+    <TextView
+        android:id="@+id/txt_emp_phone"
+        style="@style/table_row"
+        android:text="DOB"
+        />
+
+    <TextView
+        android:id="@+id/txt_emp_dob"
+        style="@style/table_row"
+        android:text="Phone"
+        />
+
+</TableRow>
